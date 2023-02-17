@@ -28,7 +28,7 @@ const NavBar = () => {
                 </HStack>
                 <HStack spacing={3}>
                     <Button variant="outline" _hover={{ bg: "#EBEAFA", color: '#9C94D1' }}>Login</Button>
-                    <Button variant="solid" color="#EBEAFA" bg='#7369F3'>Sign up</Button>
+                    <Button variant="solid" color="#EBEAFA" bg='#7369F3' _hover={{ bg: 'purple.400' }}>Sign up</Button>
                     <MobileDrawer />
                 </HStack>
             </Flex>
